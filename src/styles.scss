@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+$theme-colors: (
+  "primary": #9c0000,
+  "secondary": #520000,
+  "success": #4c8545,
+  "danger": #c20000,
+  "warning": #f29e20,
+  "info": #207f99,
+  "light": #f4e6e6,
+  "dark": #340000
+);
+
+hr {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss'; // Lo importo aqui en lugar de en angular.json porque si no no me sobreescribe los colores del tema

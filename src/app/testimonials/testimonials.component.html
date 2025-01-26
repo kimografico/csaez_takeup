@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal text-body-emphasis">What our users say</h1>
+    <p class="fs-5 text-body-secondary">We believe in the power of feedback to drive improvement and innovation. Here's
+      what some of our users have to say about their experience with our platform:</p>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 mb-3 text-center py-4">
+    <div class="col">
+      <div class="card rounded-3 shadow-sm h-100">
+        <app-testimonial-card
+          [image]="'assets/user1.jpg'"
+          [testimonial]="'I’ve been using this platform for a few months now, and it has completely changed the way I approach my daily tasks.'"
+          [username]="'John Doe'"
+          [accountName]="'@johndoe_123'"
+          [date]="'8:00PM / Dec 21, 2022'"
+          [verified]="true">
+        </app-testimonial-card>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card rounded-3 shadow-sm h-100">
+        <app-testimonial-card
+        [image]="'assets/user2.jpg'"
+        [testimonial]="'After trying several similar services, I can confidently say that this one stands out. The customer support is exceptional, and I always feel heard whenever I have an issue.'"
+        [username]="'Jane Smith'"
+        [accountName]="'@janesmith92'"
+        [date]="'8:00PM / Dec 21, 2022'"
+        [verified]="false">
+        </app-testimonial-card>
+      </div>
+    </div>
+  </div>
+</div>

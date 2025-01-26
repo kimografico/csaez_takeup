@@ -1,0 +1,23 @@
+.container-fluid {
+  background: rgb(245, 245, 245);
+}
+
+.social{
+  font-size: 2rem;
+  color: grey;
+  margin-bottom: 40px;
+}
+
+.address {
+  color: grey;
+  font-size: 0.85rem;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  transition: 0.75s;
+}
+a:hover{
+  color: #9c0000;
+ }

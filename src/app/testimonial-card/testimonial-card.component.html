@@ -1,0 +1,14 @@
+<div class="testimonial-card d-flex flex-column justify-content-between p-3 text-start">
+  <div>
+    <div class="d-flex align-items-center">
+      <img [src]="image" alt="User Image" class="user-image" />
+      <div class="ms-2">
+        <h5 class="username d-inline">{{ username }} </h5>
+        <i *ngIf="verified" class="bi bi-check-circle"></i>
+        <p class="account-name">{{ accountName }}</p>
+      </div>
+    </div>
+    <p class="testimonial">{{ testimonial }}</p>
+  </div>
+  <p class="date">{{ date }}</p>
+</div>

@@ -1,0 +1,23 @@
+.bi {
+  background-color: white;
+  color: rgb(75, 75, 75);
+  width: 2em;
+  height: 2em;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.85em;
+  transition: 0.75s;
+}
+
+.bi:hover{
+  background-color: #9c0000;
+  color: white;
+  transform: translateY(-10px);
+}
+
+#featured-3{
+  background: rgb(245, 245, 245);
+  margin-top: 75px;
+  padding: 75px;
+}

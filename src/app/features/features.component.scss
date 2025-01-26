@@ -1,0 +1,17 @@
+.bi {
+  background-color: rgb(245, 245, 245);
+  color: rgb(75, 75, 75);
+  width: 2em;
+  height: 2em;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.85em;
+  transition: 0.75s;
+}
+
+.bi:hover{
+  background-color: #9c0000;
+  color: white;
+  transform: translateY(-10px);
+}
