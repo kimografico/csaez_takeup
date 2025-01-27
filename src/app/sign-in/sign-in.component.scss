@@ -7,3 +7,9 @@
 input:hover{
   border: 2px solid #9c0000;
 }
+
+@media (max-width: 576px) {
+  .container {
+    padding: 50px 0 75px 0;
+  }
+}
