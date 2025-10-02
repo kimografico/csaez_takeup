@@ -10,7 +10,6 @@ https://csaez-takeup.vercel.app/
 <img width="1211" height="796" alt="image" src="https://github.com/user-attachments/assets/e6a69205-3b76-4167-9c64-3631a0bbbf49" />
 <img width="1215" height="636" alt="image" src="https://github.com/user-attachments/assets/52ca64b0-015c-4757-87c5-9078fb0ac7c2" />
 <img width="1213" height="741" alt="image" src="https://github.com/user-attachments/assets/1241fe9c-b5ee-4171-9329-9d2e0e766d6f" />
-<img width="1215" height="636" alt="image" src="https://github.com/user-attachments/assets/c09ef3eb-7dcf-4da6-9661-a15175192bbc" />
 
 ## Technologies
 Angular 16
